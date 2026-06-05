@@ -36,7 +36,7 @@ reviews:
         - Java 21 Record를 Value Object에 적극 활용하는지 확인해주세요
 
         [Domain Event]
-        - 이름은 반드시 과거형이어야 합니다 (예: OrderCreated, PaymentCompleted)
+        - 이름은 목적어 + 과거형 동사 형태여야 합니다. (예: OrderAcceptedEvent, PaymentCompletedEvent)
         - 이벤트에 비즈니스 로직이 포함되어 있으면 지적해주세요
 
         [Repository]
